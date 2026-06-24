@@ -1,0 +1,14 @@
+name: P
+version: 0.1.0
+description: "P / P++ / P# — fanmade Python-with-braces language"
+build:
+  system: cmake
+  instructions: |
+    mkdir -p build
+    cd build
+    cmake ..
+    cmake --build .
+logos:
+  P: assets/logos/P.png
+  Ppp: assets/logos/Ppp.png
+  Psharp: assets/logos/Psharp.png
